@@ -1,0 +1,18 @@
+python main.py -ds citeulike \
+               -l "200" \
+               -ncl 4 \
+               -cmode attention \
+               -rmode mutual_info \
+               -ldr_reg 0.2 \
+               -ldr_text 0.2 \
+               -std 0.075 \
+               -tstd 0.075 \
+               -rtast 20000 \
+               -ttast 20000 \
+               -coda 1 \
+               -scale 0 \
+               -stm 1 \
+               -stmn 0 \
+               -es 8 \
+               -rs 6 \
+               -gpu 1
